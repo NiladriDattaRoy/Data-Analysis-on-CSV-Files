@@ -1,21 +1,48 @@
 📌 Overview
 
-This project is part of the Python Developer Internship - Task 5.
-The objective is to analyze a sales dataset using Python, Pandas, and Matplotlib, and extract useful insights with data visualization.
+This project is part of the Python Developer Internship (Task 5).
+The objective of the task is to analyze a CSV file using Python, Pandas, and Matplotlib, and present meaningful insights through data visualization.
 
-⚡ Key Features
+📂 Dataset
+
+The dataset (sales_data.csv) contains information about product sales across different regions.
+It includes the following columns:
+
+Date – Date of transaction
+
+Product – Product name (Laptop, Phone, Tablet, etc.)
+
+Region – Region of sale (North, South, East, West)
+
+Units_Sold – Number of units sold
+
+Unit_Price – Price per unit
+
+Sales – Total revenue (Units_Sold × Unit_Price)
+
+⚡ Features
 
 Load and explore CSV data using Pandas
 
-Perform groupby operations to summarize sales by product and region
+Perform grouping and summarization using groupby()
 
-Handle missing data and get dataset statistics
+Handle missing values and get dataset statistics
 
-Generate visualizations such as:
+Filter rows based on conditions
 
-Bar Chart: Sales by Product
+Generate visualizations with Matplotlib:
 
-Pie Chart: Sales by Region
+📊 Bar Chart – Sales by Product
+
+🥧 Pie Chart – Sales by Region
+
+📈 Key Insights
+
+Identify the best-selling products.
+
+Compare regional performance and sales distribution.
+
+Visualize product sales using bar and pie charts.
 
 🛠 Tools & Libraries
 
@@ -23,14 +50,9 @@ Python 3.x
 
 Pandas
 
-Matplotlib / Seaborn
+Matplotlib
 
-Jupyter Notebook (or Google Colab)
-
-📂 Project Structure
-├── sales_data.csv         # Sample dataset
-├── sales_analysis.ipynb   # Jupyter Notebook with code & charts
-├── README.md              # Project documentation
+Jupyter Notebook / Google Colab
 
 🚀 How to Run
 
@@ -45,19 +67,21 @@ Install dependencies:
 pip install pandas matplotlib
 
 
-Open the notebook:
+Run the notebook:
 
 jupyter notebook sales_analysis.ipynb
 
 
-or run the script version:
+Or run the script version:
 
 python sales_analysis.py
 
-📈 Sample Insights
+📂 Project Structure
+├── sales_data.csv         # Sample dataset
+├── sales_analysis.ipynb   # Jupyter Notebook with analysis & charts
+├── README.md              # Project documentation
 
-Identify the best-selling product.
+📝 Outcome
 
-Compare regional performance.
-
-Visualize trends with charts.
+This project demonstrates how to use Pandas for data analysis and Matplotlib for visualization.
+It provides basic data insights such as sales by product and region, helping to understand business performance through data-driven analysis.
